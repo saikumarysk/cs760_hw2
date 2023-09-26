@@ -12,8 +12,8 @@ def scatter(filename):
 
     plt.scatter(red_x, red_y, label="Y = 1", color='red')
     plt.scatter(blue_x, blue_y, label="Y = 0", color='blue')
-    plt.title("Decision Boundary for "+filename)
+    plt.title("Scatter Plot for for "+filename)
 
 if __name__ == '__main__':
-    scatter('D1.txt')
+    scatter('Dxor.txt')
     plt.show()
