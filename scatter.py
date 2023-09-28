@@ -16,4 +16,5 @@ def scatter(filename):
 
 if __name__ == '__main__':
     scatter('Dxor.txt')
+    plt.legend()
     plt.show()

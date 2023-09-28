@@ -55,6 +55,7 @@ if __name__ == '__main__':
             test_error += (y_p - y) ** 2
         
         print("Test Error is", test_error/len(test_data))
+        print("log-MSE Test Error is", math.log10(test_error/len(test_data)))
 
         training_error = 0
         for i in range(len(training_data)):
